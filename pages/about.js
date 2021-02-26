@@ -1,13 +1,16 @@
 import Head from 'next/head'
 
-export default function Home() {
+
+function About() {
   return (
     <div>
       <Head>
-        <title> WebDev News</title>
+        <title>About</title>
         <meta name="keyword" content="web development, programming" />
       </Head>
-      <h1>Welcome to Next</h1>
+      <h1>About</h1>
     </div>
   )
 }
+
+export default About
